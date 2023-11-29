@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700);
+      @import url(https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C700);
+      :root {
+        --verdana-sans-serif: 700 22.5px 'Inter-Bold', sans-serif;
+      }
+
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+        -webkit-print-color-adjust: exact;
+        font-family: Inter, 'Source Sans Pro';
+      }
+
+      .voucher,
+      .voucher * {
+        box-sizing: border-box;
+      }
+      .voucher {
+        background: #ffffff;
+        width: 595px;
+        height: 919px;
+        position: relative;
+        overflow: hidden;
+      }
+      .frame {
+        width: 149px;
+        height: 31px;
+        position: absolute;
+        left: 30px;
+        top: 16px;
+        overflow: visible;
+      }
+      .group-211554 {
+        position: absolute;
+        inset: 0;
+      }
+      .rectangle-1 {
+        background: var(--gray-900, #171717);
+        width: 37px;
+        height: 595px;
+        position: absolute;
+        left: 595px;
+        top: 62px;
+        transform-origin: 0 0;
+        transform: rotate(90deg) scale(1, 1);
+      }
+      .group-211553 {
+        width: 421px;
+        height: 24px;
+        position: static;
+      }
+      .material-symbols-location-on {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 32px;
+        top: 71px;
+        overflow: visible;
+      }
+      .group-11 {
+        width: 142.36px;
+        height: 24px;
+        position: static;
+      }
+      .atat-rk-cad-no-336-k-4-d-4-onart-apt-35220-alsancak-zmir {
+        color: var(--gray-200, #e1e1e1);
+        text-align: left;
+        font: 500 7px/12px 'Inter-Medium', sans-serif;
+        position: absolute;
+        left: 53.64px;
+        top: 67px;
+        width: 142.36px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .line-45 {
+        border-style: solid;
+        border-color: var(--gray-800, #323232);
+        border-width: 1px 0 0 0;
+        width: 14px;
+        height: 0px;
+        position: absolute;
+        left: 197px;
+        top: 72px;
+        transform-origin: 0 0;
+        transform: rotate(90deg) scale(1, 1);
+      }
+      .component-35 {
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        left: 226px;
+        top: 72px;
+      }
+      .carbon-phone-voice-filled {
+        height: auto;
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        width: 100%;
+        bottom: 0%;
+        top: 0%;
+        height: 100%;
+        overflow: visible;
+      }
+      .frame-12 {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 246px;
+        top: 70px;
+      }
+      .group-112 {
+        flex-shrink: 0;
+        width: 66px;
+        height: 18px;
+        position: static;
+      }
+      ._90-232-400-26-26 {
+        color: var(--gray-200, #e1e1e1);
+        text-align: left;
+        font: 500 7px/18px 'Inter-Medium', sans-serif;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .line-46 {
+        border-style: solid;
+        border-color: var(--gray-800, #323232);
+        border-width: 1px 0 0 0;
+        width: 14px;
+        height: 0px;
+        position: absolute;
+        left: 342px;
+        top: 72px;
+        transform-origin: 0 0;
+        transform: rotate(90deg) scale(1, 1);
+      }
+      .icon-size {
+        width: 13px;
+        height: 14px;
+        position: absolute;
+        left: 372px;
+        top: 72px;
+      }
+      .rectangle-8 {
+        background: rgba(255, 255, 255, 0);
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        width: 100%;
+        bottom: 0%;
+        top: 0%;
+        height: 100%;
+      }
+      .email-black {
+        height: auto;
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        width: 100%;
+        bottom: 0%;
+        top: 0%;
+        height: 100%;
+        overflow: visible;
+      }
+      .frame-122 {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 391px;
+        top: 70px;
+      }
+      .group-113 {
+        flex-shrink: 0;
+        width: 62px;
+        height: 18px;
+        position: static;
+      }
+      .k-alterego-com-tr {
+        color: var(--gray-200, #e1e1e1);
+        text-align: left;
+        font: 500 7px/18px 'Inter-Medium', sans-serif;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .rectangle-2 {
+        background: var(--magenta-500, #ed1c24);
+        width: 607px;
+        height: 1px;
+        position: absolute;
+        left: -7px;
+        top: 61px;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, -1);
+      }
+      .frame-211546 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 0px 0px 8px 8px;
+        width: 595px;
+        height: 65px;
+        position: absolute;
+        left: 0px;
+        top: 99px;
+      }
+      .frame-211561 {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 180px;
+        top: 37px;
+      }
+      .rezervasyon-tarihi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      ._1-aral-k-2022 {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-42 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 20px;
+        height: 0.5px;
+        position: absolute;
+        left: 318px;
+        top: 57px;
+        transform-origin: 0 0;
+        transform: rotate(-90deg) scale(1, 1);
+      }
+      .sat-ofisi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: absolute;
+        left: 327.5px;
+        top: 37px;
+      }
+      .alsancak-ofis {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 376.5px;
+        top: 37px;
+      }
+      .line-52 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 20px;
+        height: 0.5px;
+        position: absolute;
+        left: 433.5px;
+        top: 57px;
+        transform-origin: 0 0;
+        transform: rotate(-90deg) scale(1, 1);
+      }
+      .frame-211565 {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 443px;
+        top: 37px;
+      }
+      .sat-temsilcisi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .yeliz-ayd-n {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .frame-211547 {
+        background: var(--magenta-500, #ed1c24);
+        border-radius: 0px 0px 8px 0px;
+        padding: 2px 26px 2px 33px;
+        width: 211px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+      .rezervasyon-no {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 500 11px/28px 'Inter-Medium', sans-serif;
+        position: absolute;
+        left: 33px;
+        top: 2px;
+      }
+      .cyp-1269 {
+        color: var(--white, #ffffff);
+        text-align: left;
+        font: 700 14px/28px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 127px;
+        top: 2px;
+      }
+      .frame-211550 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 8px;
+        padding: 8px 16px 8px 16px;
+        width: 538px;
+        height: 101px;
+        position: absolute;
+        left: 28px;
+        top: 198px;
+      }
+      .frame-211556 {
+        display: flex;
+        flex-direction: row;
+        gap: 34px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 8px;
+      }
+      .rezervasyon-sahibi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .line-40 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 504px;
+        height: 0px;
+        position: absolute;
+        left: 16px;
+        top: 28px;
+      }
+      .frame-211564 {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 30px;
+      }
+      .deme-al-nan-ki-i {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .line-50 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 504px;
+        height: 0px;
+        position: absolute;
+        left: 16px;
+        top: 50px;
+      }
+      .frame-2115652 {
+        display: flex;
+        flex-direction: row;
+        gap: 57px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 52px;
+      }
+      .deme-tutar {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      ._19-560-20-tl {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-49 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 504px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 72px;
+      }
+      .frame-211562 {
+        display: flex;
+        flex-direction: row;
+        gap: 52px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 75px;
+      }
+      .leti-im-bilgileri {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .frame-2115472 {
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+      }
+      ._0-555-321-44-55 {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .y-llorem-com-tr {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .rezervasyon-detay {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 10px/18px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 31.03px;
+        top: 176px;
+        width: 96.07px;
+      }
+      .frame-211549 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 8px;
+        padding: 8px 16px 8px 16px;
+        width: 538px;
+        height: 102px;
+        position: absolute;
+        left: 28px;
+        top: 331px;
+      }
+      .frame-2115562 {
+        display: flex;
+        flex-direction: row;
+        gap: 93px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 8px;
+      }
+      .otel {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .chamada-prestige-hotel-casino {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-402 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 505px;
+        height: 0px;
+        position: absolute;
+        left: 16px;
+        top: 28px;
+      }
+      .frame-2115642 {
+        display: flex;
+        flex-direction: row;
+        gap: 68px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 30px;
+      }
+      .otel-adres {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .alsancak-bul-467-sok-no-56-girne-k-br-s {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-492 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 505px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 50px;
+      }
+      .frame-2115653 {
+        display: flex;
+        flex-direction: row;
+        gap: 26px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 53px;
+      }
+      .konaklama-giri-tarihi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      ._12-ocak-2023 {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-55 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 505px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 73px;
+      }
+      .frame-211568 {
+        display: flex;
+        flex-direction: row;
+        gap: 39px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 76px;
+      }
+      .rezervasyon-notu {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .blalajdajsldja-dlkpis-dl-as {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .otel-bilgileri {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 10px/18px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 31px;
+        top: 309px;
+      }
+      .yeti-kin {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 10px/18px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 31px;
+        top: 443px;
+      }
+      .frame-2115492 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 8px;
+        padding: 8px 16px 8px 16px;
+        width: 538px;
+        height: 89px;
+        position: absolute;
+        left: 28px;
+        top: 465px;
+      }
+      .frame-211553 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 8px;
+      }
+      .ki-isel-bilgiler {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .frame-211552 {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+      }
+      .frame-2115522 {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+      }
+      .ad-soyad {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .line-56 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        flex-shrink: 0;
+        width: 14px;
+        height: 0px;
+        position: relative;
+        transform-origin: 0 0;
+        transform: rotate(90deg) scale(1, 1);
+      }
+      .frame-2115532 {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+      }
+      .do-um-tarihi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      ._09-07-1990 {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-57 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        flex-shrink: 0;
+        width: 14px;
+        height: 0px;
+        position: relative;
+        transform-origin: 0 0;
+        transform: rotate(90deg) scale(1, 1);
+      }
+      .frame-211554 {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+      }
+      .tc-kimlik-no {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      ._1234312456 {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-493 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 509px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 46px;
+      }
+      .frame-2115533 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 49px;
+      }
+      .oda-bilgileri {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/14px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .frame-2115622 {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+      }
+      .oda-tipi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .deluxe-deniz-manzaral-oda {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .pansiyon-tipi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .tam-pansiyon {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      ._2-yeti-kin {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 400 10px/18px '-', sans-serif;
+        position: absolute;
+        left: 31px;
+        top: 564px;
+      }
+      .frame-2115493 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 8px;
+        padding: 8px 16px 8px 16px;
+        width: 538px;
+        height: 89px;
+        position: absolute;
+        left: 28px;
+        top: 586px;
+      }
+      .u-u-bilgileri {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 10px/18px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 31px;
+        top: 685px;
+      }
+      .frame-2115494 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 8px;
+        padding: 8px 16px 8px 16px;
+        width: 538px;
+        height: 80px;
+        position: absolute;
+        left: 28px;
+        top: 707px;
+      }
+      .frame-211560 {
+        display: flex;
+        flex-direction: row;
+        gap: 89px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 8px;
+      }
+      .gidi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .frame-2115462 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+      }
+      ._12-20-atat-rk-havaliman-13-40-ercan-havaliman {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-494 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 508px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 28px;
+      }
+      .frame-2115612 {
+        display: flex;
+        flex-direction: row;
+        gap: 84px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 31px;
+      }
+      .d-n {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      ._15-00-ercan-havaliman-16-42-atat-rk-havaliman {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-502 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 508px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 51px;
+      }
+      .frame-2115623 {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 54px;
+      }
+      .havayolu-irketi {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .pegasus-airlines {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .transfer-bilgileri {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 10px/18px 'Inter-Bold', sans-serif;
+        position: absolute;
+        left: 31px;
+        top: 797px;
+      }
+      .frame-2115495 {
+        background: var(--gray-50, #f6f6f6);
+        border-radius: 8px;
+        padding: 8px 16px 8px 16px;
+        width: 538px;
+        height: 57px;
+        position: absolute;
+        left: 28px;
+        top: 819px;
+      }
+      .frame-2115602 {
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 8px;
+      }
+      .transfer-al-noktas {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+      .ercan-havaliman-ndan-otele {
+        color: var(--gray-800, #323232);
+        text-align: left;
+        font: 700 7px/18px 'Inter-Bold', sans-serif;
+        position: relative;
+      }
+      .line-495 {
+        border-style: solid;
+        border-color: var(--gray-200, #e1e1e1);
+        border-width: 1px 0 0 0;
+        width: 509px;
+        height: 1px;
+        position: absolute;
+        left: 16px;
+        top: 28px;
+      }
+      .frame-2115643 {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: 16px;
+        top: 31px;
+      }
+      .transfer-d-n-al-noktas {
+        color: var(--gray-600, #696969);
+        text-align: left;
+        font: 400 8px/18px 'Inter-Regular', sans-serif;
+        position: relative;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="voucher">
+      <svg
+        class="frame"
+        width="150"
+        height="31"
+        viewBox="0 0 150 31"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M39.5451 23.4829V20.8388C39.8655 20.7789 40.1747 20.6929 40.4691 20.5807C41.095 20.3413 41.6315 19.9674 42.0823 19.4662C42.5331 18.9651 42.8871 18.3293 43.1479 17.5626C43.4087 16.7959 43.5391 15.8909 43.5391 14.8437C43.5391 13.1682 43.2298 11.8368 42.6151 10.8495C42.0003 9.8659 40.9907 9.37223 39.5935 9.37223H39.5451V6.70569C39.7798 6.68325 40.0257 6.66829 40.2828 6.66829C41.2217 6.66829 42.0935 6.82537 42.8982 7.13952C43.703 7.45367 44.3923 7.93986 44.966 8.60182C45.5398 9.26378 45.9906 10.1015 46.311 11.1188C46.6352 12.136 46.7954 13.3365 46.7954 14.7203C46.7954 17.4878 46.0502 19.6495 44.5562 21.2127C43.3155 22.5105 41.6427 23.2697 39.5451 23.4866V23.4829ZM50.9608 7.04228C51.1917 7.00114 51.4078 6.96748 51.6202 6.94878C51.8289 6.92634 52.0487 6.91886 52.2797 6.91886C52.5107 6.91886 52.7379 6.93008 52.9689 6.94878C53.1999 6.97122 53.4086 7.00114 53.5949 7.04228C53.6582 7.35643 53.7215 7.77156 53.7811 8.28393C53.8408 8.79629 53.8743 9.23386 53.8743 9.58915C54.3139 8.87483 54.8914 8.25775 55.6142 7.73416C56.3333 7.21058 57.2573 6.94878 58.3862 6.94878C58.5538 6.94878 58.7252 6.95252 58.904 6.96374C59.0829 6.97496 59.2319 6.98992 59.3586 7.01236C59.3996 7.19936 59.4331 7.40131 59.4517 7.61074C59.4704 7.82018 59.4815 8.04083 59.4815 8.27271C59.4815 8.52328 59.4666 8.78507 59.4331 9.05808C59.4033 9.3311 59.366 9.59289 59.3251 9.84346C59.1574 9.80232 58.986 9.77988 58.8072 9.77988H58.3862C57.8236 9.77988 57.2833 9.85842 56.7729 10.0155C56.2625 10.1726 55.8005 10.4493 55.3944 10.8495C54.9883 11.2459 54.6641 11.7919 54.422 12.4838C54.1835 13.1757 54.0606 14.0658 54.0606 15.1579V23.1762C53.8296 23.2173 53.5762 23.251 53.2931 23.2697C53.0099 23.2921 52.7566 23.2996 52.5256 23.2996C52.2946 23.2996 52.0412 23.2884 51.7581 23.2697C51.4749 23.2472 51.2104 23.2173 50.9608 23.1762V7.04228ZM62.4249 7.04228C62.6559 7.00114 62.9167 6.96748 63.2073 6.94878C63.4979 6.92634 63.7512 6.91886 63.9599 6.91886C64.1909 6.91886 64.4517 6.93008 64.7423 6.94878C65.0329 6.97122 65.2974 7.00114 65.5247 7.04228V15.8759C65.5247 16.8819 65.6178 17.7159 65.8079 18.3742C65.9941 19.0361 66.2773 19.5522 66.6536 19.93C67.0299 20.3077 67.4882 20.5695 68.0321 20.7153C68.5761 20.8612 69.202 20.936 69.9099 20.936C70.9755 20.936 71.8845 20.8201 72.6334 20.5919V7.04228C72.8644 7.00114 73.1178 6.96748 73.4009 6.94878C73.6841 6.92634 73.9374 6.91886 74.1684 6.91886C74.3994 6.91886 74.6528 6.93008 74.9359 6.94878C75.2191 6.97122 75.4724 7.00114 75.7034 7.04228V22.6676C74.9732 22.877 74.1014 23.0752 73.088 23.2659C72.0746 23.4529 71.0276 23.5502 69.9397 23.5502C68.9151 23.5502 67.9502 23.4604 67.0411 23.2846C66.132 23.1051 65.3347 22.7461 64.6454 22.2001C63.9562 21.6541 63.4122 20.8911 63.0173 19.9038C62.6223 18.9202 62.4211 17.6187 62.4211 16.0068V7.04228H62.4249ZM80.3085 20.2479C80.871 20.4797 81.4932 20.663 82.1713 20.7976C82.8494 20.9323 83.5238 21.0033 84.1907 21.0033C84.6713 21.0033 85.1296 20.951 85.5692 20.8462C86.0088 20.7415 86.3889 20.5844 86.713 20.375C87.0372 20.1656 87.298 19.9075 87.4954 19.6046C87.6929 19.3017 87.7935 18.9613 87.7935 18.5836C87.7935 18.1647 87.7152 17.8169 87.5588 17.5476C87.4023 17.2746 87.1936 17.0428 86.9328 16.8558C86.672 16.6688 86.3702 16.5042 86.0237 16.3696C85.681 16.2349 85.3084 16.104 84.9135 15.9769L83.8181 15.5692C82.4806 15.0681 81.5119 14.4996 80.9046 13.8713C80.2973 13.243 79.9955 12.3941 79.9955 11.3245C79.9955 9.89956 80.5022 8.76637 81.5156 7.92864C82.529 7.0909 84.0156 6.67203 85.979 6.67203C86.795 6.67203 87.5923 6.75057 88.3747 6.90764C89.1571 7.06472 89.8426 7.24797 90.4276 7.45741C90.3866 7.87628 90.3084 8.29514 90.1929 8.71401C90.0774 9.13288 89.9358 9.52183 89.7718 9.87712C89.3136 9.70883 88.7659 9.54801 88.1288 9.39093C87.4917 9.23386 86.8099 9.15532 86.0759 9.15532C85.3047 9.15532 84.6191 9.28996 84.023 9.56297C83.4269 9.83598 83.1288 10.3184 83.1288 11.0103C83.1288 11.3656 83.2034 11.6723 83.3487 11.9228C83.494 12.1734 83.6914 12.3903 83.9448 12.5661C84.1944 12.7456 84.4813 12.8952 84.8054 13.0224C85.1296 13.1495 85.4798 13.2729 85.8561 13.4001L87.2346 13.8713C87.7339 14.0396 88.2108 14.2378 88.6616 14.4697C89.1087 14.7016 89.4961 14.9896 89.8203 15.3336C90.1444 15.6777 90.4052 16.1003 90.6027 16.5902C90.8002 17.0839 90.9007 17.6748 90.9007 18.3667C90.9007 19.1408 90.7443 19.8514 90.4313 20.4872C90.1183 21.1267 89.675 21.6728 89.1012 22.1215C88.5274 22.5703 87.8345 22.9219 87.0185 23.1762C86.2026 23.4268 85.3047 23.5539 84.3248 23.5539C83.3449 23.5539 82.447 23.4866 81.6944 23.3482C80.9418 23.2136 80.2414 23.0303 79.5968 22.7985C79.6378 22.3796 79.7272 21.9532 79.8614 21.5269C79.9955 21.0968 80.1483 20.6742 80.3159 20.2553L80.3085 20.2479ZM11.6504 20.375C11.8181 20.6667 11.9634 21.037 12.09 21.4745C12.2167 21.9158 12.2875 22.3646 12.3099 22.8284C11.0766 23.3108 9.66831 23.5502 8.08114 23.5502C5.40978 23.5502 3.39415 22.791 2.03426 21.2688C0.678086 19.7504 0 17.701 0 15.1242C0 13.9312 0.167659 12.8167 0.49925 11.7919C0.834567 10.7635 1.33009 9.87338 1.98582 9.11792C2.64528 8.36246 3.46494 7.76782 4.44482 7.32651C5.42469 6.8852 6.56476 6.66455 7.8576 6.66455C8.73315 6.66455 9.5081 6.71691 10.175 6.82163C10.8419 6.92634 11.479 7.09464 12.0863 7.32651C12.0863 7.6818 12.0379 8.09693 11.9447 8.56816C11.8516 9.03938 11.7212 9.45451 11.5535 9.8098C10.529 9.45451 9.3628 9.275 8.04389 9.275C6.43436 9.275 5.23467 9.8098 4.44109 10.8794C3.64751 11.949 3.25258 13.3627 3.25258 15.1242C3.25258 17.1363 3.70339 18.6098 4.6013 19.541C5.4992 20.4722 6.73242 20.9397 8.29724 20.9397C8.92316 20.9397 9.50438 20.8986 10.0372 20.8126C10.5699 20.7266 11.1064 20.5807 11.6504 20.3713V20.375ZM39.5451 6.70195V9.36849C39.0384 9.37223 38.554 9.46947 38.0883 9.65273C37.6077 9.83972 37.1792 10.124 36.8029 10.5017C36.4266 10.8794 36.1248 11.3544 35.8938 11.9303C35.6628 12.5063 35.5511 13.1944 35.5511 13.991V20.5321C35.946 20.6779 36.3558 20.7827 36.7731 20.8462C37.1904 20.9098 37.7344 20.9397 38.4013 20.9397C38.7999 20.9397 39.1799 20.9061 39.5451 20.8388V23.4829C39.1203 23.5277 38.677 23.5502 38.215 23.5502C37.753 23.5502 37.2873 23.5203 36.8066 23.4567C36.326 23.3931 35.9087 23.3108 35.5548 23.2061V30.5961C35.3052 30.6373 35.0369 30.6709 34.7575 30.6896C34.4743 30.7121 34.221 30.7196 33.99 30.7196C33.759 30.7196 33.5056 30.7083 33.2225 30.6896C32.9393 30.6672 32.686 30.6373 32.455 30.5961V7.04228C32.6636 7.00114 32.876 6.96748 33.0958 6.94878C33.3156 6.92634 33.5392 6.91886 33.7702 6.91886C33.9788 6.91886 34.1986 6.93008 34.4296 6.94878C34.6606 6.97122 34.8767 7.00114 35.0891 7.04228C35.1114 7.08342 35.1375 7.21432 35.1673 7.43497C35.1971 7.65562 35.2307 7.89124 35.2605 8.14181C35.2903 8.39238 35.3238 8.63548 35.3536 8.86361C35.3834 9.09548 35.402 9.24134 35.402 9.30492C35.6107 8.96833 35.8603 8.64296 36.1546 8.3288C36.4452 8.01465 36.7955 7.73042 37.2053 7.47985C37.6114 7.22928 38.0734 7.03106 38.5838 6.88146C38.8856 6.79545 39.2097 6.73187 39.5562 6.69821L39.5451 6.70195ZM21.3932 23.2024C21.2256 23.2024 21.0542 23.2061 20.8754 23.2173C20.6965 23.2285 20.5251 23.2323 20.3575 23.2323C20.1488 23.2323 19.929 23.2285 19.698 23.2173C19.467 23.2061 19.2807 23.1911 19.1354 23.1687L13.8113 7.03854C14.0833 6.9974 14.3628 6.97122 14.6571 6.96C14.9477 6.94878 15.2197 6.94504 15.473 6.94504C15.745 6.94504 16.0468 6.94878 16.3821 6.96C16.7174 6.97122 16.9969 6.9974 17.2279 7.03854L21.6764 22.0355L26.2814 7.03854C26.7211 6.97496 27.2315 6.94504 27.8164 6.94504C28.0474 6.94504 28.3082 6.94878 28.5988 6.96C28.8894 6.97122 29.1838 6.9974 29.4744 7.03854L23.2412 26.4374C22.9506 27.2976 22.6451 28.0194 22.3321 28.6065C22.0192 29.1937 21.6652 29.6649 21.2666 30.0202C20.8716 30.3755 20.4245 30.6298 19.9365 30.7757C19.4447 30.9215 18.8784 30.9963 18.2301 30.9963C17.7495 30.9963 17.2763 30.9589 16.8031 30.8879C16.3337 30.8131 15.9201 30.727 15.5662 30.6223C15.5662 30.1399 15.6071 29.7098 15.6928 29.3321C15.7748 28.9543 15.9015 28.5766 16.0691 28.1989C16.2554 28.2624 16.5125 28.3298 16.8366 28.4046C17.1608 28.4794 17.511 28.513 17.8873 28.513C18.1593 28.513 18.4126 28.4868 18.6548 28.4345C18.897 28.3821 19.1205 28.2774 19.3292 28.1203C19.5378 27.9633 19.7316 27.7389 19.9104 27.4434C20.0892 27.1517 20.2606 26.7515 20.4283 26.2504L21.4007 23.2024H21.3932Z"
+          fill="#ED1C24"
+        />
+        <path
+          d="M111.459 23.5464V21.0294C111.574 21.0331 111.69 21.0331 111.801 21.0331C112.282 21.0331 112.777 21.007 113.288 20.9546C113.798 20.9022 114.253 20.8237 114.651 20.719V15.5953C114.339 15.5542 113.94 15.513 113.463 15.4682C112.982 15.427 112.576 15.4046 112.241 15.4046C111.965 15.4046 111.704 15.4158 111.459 15.4382V12.9961C111.615 12.9886 111.771 12.9849 111.928 12.9849C112.595 12.9849 113.143 12.9998 113.571 13.0335C113.999 13.0634 114.361 13.1008 114.651 13.1419V12.5436C114.651 11.3056 114.339 10.4492 113.713 9.96676C113.172 9.55163 112.42 9.31228 111.459 9.25618V6.66443C113.47 6.68687 115.005 7.16558 116.064 8.09307C117.148 9.04675 117.692 10.5726 117.692 12.667V22.761C116.961 22.9293 116.075 23.1013 115.028 23.2808C113.981 23.4603 112.919 23.5464 111.831 23.5464C111.704 23.5464 111.578 23.5464 111.455 23.5426L111.459 23.5464ZM122.952 9.52919H120.508L120.382 9.08789L125.769 3.05168H126.019V7.0459H130.091C130.173 7.40119 130.218 7.80136 130.218 8.23893C130.218 8.4708 130.206 8.68772 130.188 8.90089C130.166 9.11033 130.136 9.31976 130.095 9.52919H126.022V16.8856C126.022 17.7645 126.06 18.4676 126.131 18.9911C126.205 19.5147 126.328 19.9186 126.507 20.2029C126.686 20.4871 126.924 20.6741 127.226 20.7676C127.528 20.8611 127.911 20.9097 128.37 20.9097C128.724 20.9097 129.059 20.8835 129.372 20.8312C129.685 20.7788 129.968 20.7227 130.218 20.6591C130.363 21.078 130.452 21.5081 130.482 21.9494C130.512 22.3907 130.531 22.7759 130.531 23.1125C130.113 23.2172 129.674 23.2958 129.215 23.3481C128.757 23.4005 128.265 23.4267 127.744 23.4267C126.239 23.4267 125.065 23.0602 124.219 22.3271C123.373 21.5941 122.952 20.3787 122.952 18.6807V9.52545V9.52919ZM134.51 9.49928H132.475C132.434 9.33098 132.401 9.13651 132.382 8.91585C132.36 8.6952 132.353 8.48202 132.353 8.27259C132.353 8.06315 132.364 7.84998 132.382 7.62932C132.405 7.40867 132.434 7.2142 132.475 7.0459H137.55V23.1724C137.319 23.2135 137.066 23.2472 136.782 23.2659C136.499 23.2883 136.246 23.2958 136.015 23.2958C135.806 23.2958 135.56 23.2846 135.277 23.2659C134.994 23.2434 134.741 23.2135 134.51 23.1724V9.49554V9.49928ZM133.82 3.49299C133.779 3.24242 133.753 2.96941 133.742 2.67395C133.731 2.38224 133.727 2.11671 133.727 1.88857C133.727 1.66044 133.731 1.39491 133.742 1.10319C133.753 0.811481 133.779 0.545948 133.82 0.317814C134.092 0.276675 134.383 0.243016 134.696 0.224316C135.009 0.201877 135.281 0.194397 135.512 0.194397C135.743 0.194397 136.011 0.205617 136.328 0.224316C136.641 0.246756 136.924 0.276675 137.174 0.317814C137.215 0.549688 137.241 0.811481 137.252 1.10319C137.263 1.39491 137.267 1.66044 137.267 1.88857C137.267 2.11671 137.263 2.38224 137.252 2.67395C137.241 2.96567 137.215 3.23868 137.174 3.49299C136.924 3.53413 136.645 3.56779 136.343 3.58649C136.041 3.60893 135.773 3.61641 135.545 3.61641C135.296 3.61641 135.013 3.60519 134.7 3.58649C134.387 3.56405 134.092 3.53413 133.824 3.49299H133.82ZM142.528 0.127079C142.759 0.08594 143.012 0.0522809 143.295 0.0335813C143.578 0.0111419 143.832 0.00366211 144.063 0.00366211C144.294 0.00366211 144.547 0.0148818 144.83 0.0335813C145.113 0.0560208 145.367 0.08594 145.598 0.127079V18.2993C145.598 18.8864 145.65 19.3464 145.754 19.683C145.858 20.0196 146 20.2739 146.175 20.4535C146.354 20.633 146.563 20.7452 146.801 20.7975C147.039 20.8499 147.296 20.8761 147.568 20.8761C147.755 20.8761 147.971 20.8648 148.209 20.8461C148.448 20.8237 148.653 20.7938 148.82 20.7526C149.007 21.4857 149.103 22.2823 149.103 23.1424C148.813 23.2472 148.455 23.3145 148.038 23.3481C147.621 23.3781 147.233 23.3968 146.879 23.3968C146.272 23.3968 145.709 23.322 145.188 23.1761C144.666 23.0302 144.208 22.7872 143.809 22.4543C143.414 22.1177 143.098 21.6689 142.87 21.1042C142.639 20.5395 142.528 19.8364 142.528 18.9986V0.127079ZM95.5459 9.52919H93.1018L92.9751 9.08789L98.3625 3.05168H98.6122V7.0459H102.684C102.766 7.40119 102.811 7.80136 102.811 8.23893C102.811 8.4708 102.8 8.68772 102.781 8.90089C102.759 9.11033 102.729 9.31976 102.688 9.52919H98.6159V16.8856C98.6159 17.7645 98.6531 18.4676 98.7239 18.9911C98.7984 19.5147 98.9214 19.9186 99.1002 20.2029C99.2791 20.4871 99.5175 20.6741 99.8193 20.7676C100.121 20.8611 100.505 20.9097 100.963 20.9097C101.317 20.9097 101.652 20.8835 101.965 20.8312C102.278 20.7788 102.561 20.7227 102.811 20.6591C102.956 21.078 103.046 21.5081 103.076 21.9494C103.105 22.3907 103.124 22.7759 103.124 23.1125C102.707 23.2172 102.267 23.2958 101.809 23.3481C101.351 23.4005 100.859 23.4267 100.337 23.4267C98.832 23.4267 97.6584 23.0602 96.8126 22.3271C95.9669 21.5941 95.5459 20.3787 95.5459 18.6807V9.52545V9.52919ZM111.459 6.66817V9.25992C111.306 9.25244 111.149 9.24496 110.989 9.24496C110.259 9.24496 109.573 9.30106 108.936 9.417C108.299 9.53293 107.677 9.68253 107.073 9.87327C106.678 9.18138 106.477 8.35487 106.477 7.38997C107.189 7.1581 107.971 6.98232 108.828 6.85516C109.685 6.72801 110.508 6.66817 111.302 6.66817C111.354 6.66817 111.406 6.66817 111.459 6.66817ZM111.459 12.9961V15.4382C110.542 15.5205 109.815 15.7487 109.283 16.1301C108.605 16.6126 108.266 17.3456 108.266 18.3292C108.266 18.9575 108.381 19.4512 108.608 19.8064C108.839 20.1617 109.126 20.4348 109.469 20.6255C109.812 20.8125 110.196 20.9284 110.613 20.9696C110.903 20.9995 111.187 21.0182 111.459 21.0257V23.5426C110.583 23.5239 109.786 23.4304 109.063 23.2659C108.239 23.0789 107.539 22.7722 106.965 22.3533C106.392 21.9345 105.948 21.3996 105.635 20.7489C105.322 20.0982 105.166 19.3128 105.166 18.389C105.166 17.4653 105.348 16.6948 105.713 16.0142C106.079 15.3335 106.574 14.7688 107.2 14.3163C107.826 13.8675 108.549 13.5309 109.361 13.3102C110.032 13.1307 110.732 13.0223 111.459 12.9886V12.9961Z"
+          fill="#323232"
+        />
+      </svg>
+
+      <div class="group-211554">
+        <div class="rectangle-1"></div>
+        <div class="group-211553">
+          <svg
+            class="material-symbols-location-on"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.99984 7.99992C8.3665 7.99992 8.6805 7.86925 8.94184 7.60792C9.20273 7.34703 9.33317 7.03325 9.33317 6.66659C9.33317 6.29992 9.20273 5.98592 8.94184 5.72459C8.6805 5.4637 8.3665 5.33325 7.99984 5.33325C7.63317 5.33325 7.31939 5.4637 7.0585 5.72459C6.79717 5.98592 6.6665 6.29992 6.6665 6.66659C6.6665 7.03325 6.79717 7.34703 7.0585 7.60792C7.31939 7.86925 7.63317 7.99992 7.99984 7.99992ZM7.99984 14.6666C6.21095 13.1444 4.87495 11.7304 3.99184 10.4246C3.10828 9.11925 2.6665 7.91103 2.6665 6.79992C2.6665 5.13325 3.20273 3.80547 4.27517 2.81659C5.34717 1.8277 6.58873 1.33325 7.99984 1.33325C9.41095 1.33325 10.6525 1.8277 11.7245 2.81659C12.7969 3.80547 13.3332 5.13325 13.3332 6.79992C13.3332 7.91103 12.8916 9.11925 12.0085 10.4246C11.1249 11.7304 9.78873 13.1444 7.99984 14.6666Z"
+              fill="#696969"
+            />
+          </svg>
+
+          <div class="group-11">
+            <div
+              class="atat-rk-cad-no-336-k-4-d-4-onart-apt-35220-alsancak-zmir"
+            >
+              Atatürk Cad. No: 336 K:4 D:4 <br />Onart Apt. 35220 Alsancak /
+              İzmir
+            </div>
+          </div>
+          <div class="line-45"></div>
+          <div class="component-35">
+            <svg
+              class="carbon-phone-voice-filled"
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.5 5.6875H9.625C9.62465 5.33951 9.48626 5.00587 9.24019 4.75981C8.99413 4.51374 8.66049 4.37535 8.3125 4.375V3.5C8.89245 3.50069 9.44844 3.73139 9.85853 4.14147C10.2686 4.55156 10.4993 5.10755 10.5 5.6875V5.6875Z"
+                fill="#696969"
+              />
+              <path
+                d="M12.2501 5.6875H11.3751C11.3741 4.87556 11.0512 4.09714 10.4771 3.52301C9.90293 2.94888 9.12451 2.62593 8.31257 2.625V1.75C9.3565 1.75116 10.3574 2.16638 11.0955 2.90455C11.8337 3.64272 12.2489 4.64357 12.2501 5.6875V5.6875ZM8.89576 9.39838L9.87576 8.41838C10.0069 8.28717 10.1737 8.19733 10.3555 8.16001C10.5372 8.12268 10.7259 8.1395 10.8982 8.20838L12.0917 8.68613C12.2676 8.75651 12.4184 8.87799 12.5246 9.03489C12.6308 9.19179 12.6876 9.37691 12.6876 9.56638V11.7368C12.6879 11.8658 12.6619 11.9935 12.6111 12.1121C12.5603 12.2307 12.4859 12.3377 12.3924 12.4265C12.2988 12.5154 12.1881 12.5842 12.0671 12.6288C11.946 12.6733 11.8171 12.6927 11.6883 12.6858C3.32244 12.1651 1.63282 5.07938 1.31913 2.366C1.30394 2.23335 1.317 2.09899 1.35746 1.97175C1.39792 1.8445 1.46486 1.72727 1.55388 1.62776C1.6429 1.52824 1.75198 1.4487 1.87394 1.39436C1.9959 1.34003 2.12799 1.31213 2.26151 1.3125H4.39344C4.58291 1.3125 4.76804 1.36926 4.92494 1.47547C5.08183 1.58168 5.20331 1.73247 5.27369 1.90838L5.75101 3.10188C5.81989 3.27416 5.83671 3.46286 5.79938 3.6446C5.76205 3.82634 5.67222 3.99314 5.54101 4.12432L4.56101 5.10432C4.56101 5.10432 5.10438 8.92457 8.89576 9.39838Z"
+                fill="#696969"
+              />
+            </svg>
+          </div>
+          <div class="frame-12">
+            <div class="group-112">
+              <div class="_90-232-400-26-26">+90 232 400 26 26</div>
+            </div>
+          </div>
+          <div class="line-46"></div>
+          <div class="icon-size">
+            <div class="rectangle-8"></div>
+            <svg
+              class="email-black"
+              width="13"
+              height="14"
+              viewBox="0 0 13 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_30_240)">
+                <path
+                  d="M10.8335 2.33325H2.16683C1.571 2.33325 1.08891 2.85825 1.08891 3.49992L1.0835 10.4999C1.0835 11.1416 1.571 11.6666 2.16683 11.6666H10.8335C11.4293 11.6666 11.9168 11.1416 11.9168 10.4999V3.49992C11.9168 2.85825 11.4293 2.33325 10.8335 2.33325ZM10.6168 4.81242L6.78725 7.39075C6.61391 7.50742 6.38641 7.50742 6.21308 7.39075L2.3835 4.81242C2.24808 4.71909 2.16683 4.56159 2.16683 4.39242C2.16683 4.00159 2.56225 3.76825 2.871 3.97242L6.50016 6.41659L10.1293 3.97242C10.4381 3.76825 10.8335 4.00159 10.8335 4.39242C10.8335 4.56159 10.7522 4.71909 10.6168 4.81242Z"
+                  fill="#696969"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_30_240">
+                  <rect width="13" height="14" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="frame-122">
+            <div class="group-113">
+              <div class="k-alterego-com-tr">k@alterego.com.tr</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-2"></div>
+      <div class="frame-211546">
+        <div class="frame-211561">
+          <p class="rezervasyon-tarihi">Rezervasyon Tarihi:</p>
+          <div class="_1-aral-k-2022">1 Aralık 2022</div>
+        </div>
+        <div class="line-42"></div>
+        <div class="sat-ofisi">Satış Ofisi:</div>
+        <div class="alsancak-ofis">Alsancak Ofis</div>
+        <div class="line-52"></div>
+        <div class="frame-211565">
+          <div class="sat-temsilcisi">Satış Temsilcisi:</div>
+          <div class="yeliz-ayd-n">Yeliz Aydın</div>
+        </div>
+        <div class="frame-211547">
+          <div class="rezervasyon-no">Rezervasyon no:</div>
+          <div class="cyp-1269">CYP1269</div>
+        </div>
+      </div>
+      <div class="frame-211550">
+        <div class="frame-211556">
+          <div class="rezervasyon-sahibi">Rezervasyon Sahibi:</div>
+          <div class="yeliz-ayd-n">Yeliz Aydın</div>
+        </div>
+        <div class="line-40"></div>
+        <div class="frame-211564">
+          <div class="deme-al-nan-ki-i">Ödeme Alınan Kişi:</div>
+          <div class="yeliz-ayd-n">Yeliz Aydın</div>
+        </div>
+        <div class="line-50"></div>
+        <div class="frame-2115652">
+          <div class="deme-tutar">Ödeme Tutarı:</div>
+          <div class="_19-560-20-tl">19.560,20 tl</div>
+        </div>
+        <div class="line-49"></div>
+        <div class="frame-211562">
+          <div class="leti-im-bilgileri">İletişim Bilgileri:</div>
+          <div class="frame-2115472">
+            <div class="_0-555-321-44-55">0 555 321 44 55,</div>
+            <div class="y-llorem-com-tr">y@llorem.com.tr</div>
+          </div>
+        </div>
+      </div>
+      <div class="rezervasyon-detay">Rezervasyon Detay</div>
+      <div class="frame-211549">
+        <div class="frame-2115562">
+          <div class="otel">Otel:</div>
+          <div class="chamada-prestige-hotel-casino">
+            Chamada Prestige Hotel Casino
+          </div>
+        </div>
+        <div class="line-402"></div>
+        <div class="frame-2115642">
+          <div class="otel-adres">Otel Adres:</div>
+          <div class="alsancak-bul-467-sok-no-56-girne-k-br-s">
+            Alsancak Bul. 467 Sok. No:56 Girne / Kıbrıs
+          </div>
+        </div>
+        <div class="line-492"></div>
+        <div class="frame-2115653">
+          <div class="konaklama-giri-tarihi">Konaklama Giriş Tarihi:</div>
+          <div class="_12-ocak-2023">12 Ocak 2023</div>
+        </div>
+        <div class="line-55"></div>
+        <div class="frame-211568">
+          <div class="rezervasyon-notu">Rezervasyon Notu:</div>
+          <div class="blalajdajsldja-dlkpis-dl-as">
+            BlalajdajsldjaşdlkpisDLİASŞ
+          </div>
+        </div>
+      </div>
+      <div class="otel-bilgileri">Otel Bilgileri</div>
+      <div class="yeti-kin">Yetişkin</div>
+      <div class="frame-2115492">
+        <div class="frame-211553">
+          <div class="ki-isel-bilgiler">Kişisel Bilgiler</div>
+          <div class="frame-211552">
+            <div class="frame-2115522">
+              <div class="ad-soyad">Ad Soyad:</div>
+              <div class="yeliz-ayd-n">Yeliz Aydın</div>
+            </div>
+            <div class="line-56"></div>
+            <div class="frame-2115532">
+              <div class="do-um-tarihi">Doğum Tarihi:</div>
+              <div class="_09-07-1990">09.07.1990</div>
+            </div>
+            <div class="line-57"></div>
+            <div class="frame-211554">
+              <div class="tc-kimlik-no">TC kimlik No:</div>
+              <div class="_1234312456">1234312456</div>
+            </div>
+          </div>
+        </div>
+        <div class="line-493"></div>
+        <div class="frame-2115533">
+          <div class="oda-bilgileri">Oda Bilgileri</div>
+          <div class="frame-2115622">
+            <div class="frame-2115522">
+              <div class="oda-tipi">Oda Tipi:</div>
+              <div class="deluxe-deniz-manzaral-oda">
+                Deluxe Deniz Manzaralı Oda
+              </div>
+            </div>
+            <div class="line-56"></div>
+            <div class="frame-2115532">
+              <div class="pansiyon-tipi">Pansiyon Tipi:</div>
+              <div class="tam-pansiyon">Tam Pansiyon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="_2-yeti-kin">2.Yetişkin</div>
+      <div class="frame-2115493">
+        <div class="frame-211553">
+          <div class="ki-isel-bilgiler">Kişisel Bilgiler</div>
+          <div class="frame-211552">
+            <div class="frame-2115522">
+              <div class="ad-soyad">Ad Soyad:</div>
+              <div class="yeliz-ayd-n">Yeliz Aydın</div>
+            </div>
+            <div class="line-56"></div>
+            <div class="frame-2115532">
+              <div class="do-um-tarihi">Doğum Tarihi:</div>
+              <div class="_09-07-1990">09.07.1990</div>
+            </div>
+            <div class="line-57"></div>
+            <div class="frame-211554">
+              <div class="tc-kimlik-no">TC kimlik No:</div>
+              <div class="_1234312456">1234312456</div>
+            </div>
+          </div>
+        </div>
+        <div class="line-493"></div>
+        <div class="frame-2115533">
+          <div class="oda-bilgileri">Oda Bilgileri</div>
+          <div class="frame-2115622">
+            <div class="frame-2115522">
+              <div class="oda-tipi">Oda Tipi:</div>
+              <div class="deluxe-deniz-manzaral-oda">
+                Deluxe Deniz Manzaralı Oda
+              </div>
+            </div>
+            <div class="line-56"></div>
+            <div class="frame-2115532">
+              <div class="pansiyon-tipi">Pansiyon Tipi:</div>
+              <div class="tam-pansiyon">Tam Pansiyon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-u-bilgileri">Uçuş Bilgileri</div>
+      <div class="frame-2115494">
+        <div class="frame-211560">
+          <div class="gidi">Gidiş:</div>
+          <div class="frame-2115462">
+            <div class="_12-20-atat-rk-havaliman-13-40-ercan-havaliman">
+              12:20 - Atatürk Havalimanı / 13:40 - Ercan Havalimanı
+            </div>
+          </div>
+        </div>
+        <div class="line-494"></div>
+        <div class="frame-2115612">
+          <div class="d-n">Dönüş:</div>
+          <div class="frame-2115462">
+            <div class="_15-00-ercan-havaliman-16-42-atat-rk-havaliman">
+              15:00 - Ercan Havalimanı / 16:42 Atatürk Havalimanı
+            </div>
+          </div>
+        </div>
+        <div class="line-502"></div>
+        <div class="frame-2115623">
+          <div class="havayolu-irketi">Havayolu Şirketi:</div>
+          <div class="frame-2115462">
+            <div class="pegasus-airlines">(Pegasus Airlines)</div>
+          </div>
+        </div>
+      </div>
+      <div class="transfer-bilgileri">Transfer Bilgileri</div>
+      <div class="frame-2115495">
+        <div class="frame-2115602">
+          <div class="transfer-al-noktas">Transfer Alış Noktası:</div>
+          <div class="frame-2115462">
+            <div class="ercan-havaliman-ndan-otele">
+              Ercan Havalimanından, Otele
+            </div>
+          </div>
+        </div>
+        <div class="line-495"></div>
+        <div class="frame-2115643">
+          <div class="transfer-d-n-al-noktas">Transfer Dönüş Alış Noktası:</div>
+          <div class="frame-2115462">
+            <div class="ercan-havaliman-ndan-otele">
+              Ercan Havalimanından, Otele
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
